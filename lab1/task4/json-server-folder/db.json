@@ -1,0 +1,15 @@
+{
+  "posts": [
+    { "id": 1, "title": "post1", "author": "auth1" },
+    { "id": 2, "title": "post2", "author": "auth12" },
+    { "id": 3, "title": "post3", "author": "auth1" },
+    { "id": 4, "title": "post4", "author": "22332" },
+    { "id": 5, "title": "post5", "author": "helloauth" }
+  ],
+  "comments": [
+    { "id": 1, "body": "1 comment", "postId": 10 },
+    { "id": 2, "body": "2 comment", "postId": 20 },
+    { "id": 3, "body": "3 comment", "postId": 30 }
+  ],
+  "profile": { "name": "typicode" }
+}

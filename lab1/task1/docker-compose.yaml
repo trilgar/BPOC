@@ -1,0 +1,7 @@
+
+services:
+  hello-world:
+    image: hello-world
+    container_name: hello_world
+    ports:
+      - 8080:8080

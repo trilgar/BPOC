@@ -1,0 +1,9 @@
+services:
+  json-server:
+    image: json-server:2.0
+    ports:
+      - 4000:3000
+    volumes:
+      - ./db.js:/app/db.js
+      - ./routes.json:/app/routes.json:delegated
+      - ./middleware.js:/app/middleware.js:delegated

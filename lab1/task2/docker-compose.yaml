@@ -1,0 +1,11 @@
+services:
+  lite-server:
+    image: lite-server:1.0
+    ports:
+      - 3000:3000
+      - 3001:3001
+    volumes:
+      - lite-server-data:/usr/app
+volumes:
+  lite-server-data:
+    driver: local
